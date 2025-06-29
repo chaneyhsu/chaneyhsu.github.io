@@ -17,18 +17,18 @@
 - Balanced dataset using oversampling and class weights to boost minority class detection
 - Achieved 84.2% true positive rate in final model; assessed performance via ROC-AUC, F1, and MCC
 - [Paper] ()
-- [RStudio Code] ()
+- [RStudio Code] (https://github.com/chaneyhsu/chaneyhsu.github.io/blob/82450e198b1d68bfe69da57dea84aea9ee14e559/assets/files/Predictive%20Modeling%20for%20Quality%20of%20Life%20Classification%20Using%20ACS%20Data.R)
 
 ##### Real Estate Cost Analysis
-- Preprocessed and cleaned real estate data, building a regression model with Python and Pandas, engineering key features (price per sqft, property age, convenience), and applying data normalization techniques (Z-score scaling) to enhance model accuracy in predicting cost trends, leading to improved accuracy and more reliable predictions
+- Preprocessed and cleaned real estate data, building a regression model with R, engineering key features (price per sqft, property age, convenience), and applying data normalization techniques (Z-score scaling) to enhance model accuracy in predicting cost trends, leading to improved accuracy and more reliable predictions
 - Evaluated model performance using R-squared and Mean Squared Error, optimizing hyperparameters to improve accuracy and provide insights that enhanced business decisions and cost optimization
-- [Presentation] ()
-- [RMarkdown Code] ()
+- [Presentation] (https://github.com/chaneyhsu/chaneyhsu.github.io/blob/82450e198b1d68bfe69da57dea84aea9ee14e559/assets/files/Real%20Estate%20Cost%20Analysis.pdf)
+- [RMarkdown Code] (https://github.com/chaneyhsu/chaneyhsu.github.io/blob/82450e198b1d68bfe69da57dea84aea9ee14e559/assets/files/Real%20Estate%20Cost%20Analysis.Rmd)
 
 ##### Evaluation of Predictive Algorithms
 - Explored and evaluated Artificial Neural Networks in a team of 3, focusing on Recurrent Neural Networks (RNNs), Long Short-Term Memory (LSTM) Networks, and Gated Recurrent Units (GRUs), developing and training models in Python to assess performance across various tasks
 - Implemented RNNs, LSTMs, and GRUs, identifying that LSTMs excel in time-series analysis, while GRUs and RNNs outperform simpler tasks, improving model efficiency
-- [Paper with Python Code] ()
+- [Paper with Python Code] (https://github.com/chaneyhsu/chaneyhsu.github.io/blob/82450e198b1d68bfe69da57dea84aea9ee14e559/assets/files/Evaluation%20of%20Predictive%20Algorithms.pdf)
 
 ##### Statistical Methods For Air Permeability in Textiles Research
 - Validated and recreated the analysis of textile data using multiple linear regression to predict air permeability based on weft/warp yarn densities and fabric mass per unit area; achieved R² = 0.84 in baseline model
@@ -36,4 +36,4 @@
 - Enhanced original study by conducting tertiary regression models excluding individual predictors, and compared their statistical performance
 - Validated significant predictors and model fit through hypothesis testing (α = 0.05) and visualized model diagnostics using R
 - Concluded weft and warp densities were the most significant predictors; recommended reduced models for improved interpretability without sacrificing predictive power
-- [Paper with RMarkdown Code] ()
+- [Paper with RMarkdown Code] (https://github.com/chaneyhsu/chaneyhsu.github.io/blob/82450e198b1d68bfe69da57dea84aea9ee14e559/assets/files/Statistical%20Methods%20For%20Air%20Permeability%20in%20Textiles%20Research.pdf)
