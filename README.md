@@ -2,6 +2,8 @@
 
 #### Technical Skills: Python, R, STATA, SQL
 
+#### [Connect with me on LinkedIn](https://www.linkedin.com/in/chenweihsu/)
+
 ## Education
 - M.S., Applied Data Analytics @ Boston University (_December 2025_)
 - B.A., Economics, Digital Marketing & Analytics @ University of Connecticut (_May 2024_)
