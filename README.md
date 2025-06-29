@@ -1,4 +1,4 @@
-# Portfolio
+ # Portfolio
 
 #### Technical Skills: Python, R, STATA, SQL
 
@@ -17,7 +17,7 @@
 - Balanced dataset using oversampling and class weights to boost minority class detection
 - Achieved 84.2% true positive rate in final model; assessed performance via ROC-AUC, F1, and MCC
 - [Paper] ()
-- [Code] ()
+- [RStudio Code] ()
 
 ##### Real Estate Cost Analysis
 - Preprocessed and cleaned real estate data, building a regression model with Python and Pandas, engineering key features (price per sqft, property age, convenience), and applying data normalization techniques (Z-score scaling) to enhance model accuracy in predicting cost trends, leading to improved accuracy and more reliable predictions
@@ -27,7 +27,7 @@
 ##### Evaluation of Predictive Algorithms
 - Explored and evaluated Artificial Neural Networks in a team of 3, focusing on Recurrent Neural Networks (RNNs), Long Short-Term Memory (LSTM) Networks, and Gated Recurrent Units (GRUs), developing and training models in Python to assess performance across various tasks
 - Implemented RNNs, LSTMs, and GRUs, identifying that LSTMs excel in time-series analysis, while GRUs and RNNs outperform simpler tasks, improving model efficiency
-- [Evaluation of Predictive Algorithms] ()
+- [Paper with Python Code] ()
 
 ##### Statistical Methods For Air Permeability in Textiles Research
 - Validated and recreated the analysis of textile data using multiple linear regression to predict air permeability based on weft/warp yarn densities and fabric mass per unit area; achieved R² = 0.84 in baseline model
