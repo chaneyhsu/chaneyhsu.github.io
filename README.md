@@ -16,7 +16,7 @@
 - Applied LASSO, Random Forest, and Recursive Feature Elimination in RStudio for dimensionality reduction and feature selection
 - Balanced dataset using oversampling and class weights to boost minority class detection
 - Achieved 84.2% true positive rate in final model; assessed performance via ROC-AUC, F1, and MCC
-- [Paper] ()
+- [Paper] (https://github.com/chaneyhsu/chaneyhsu.github.io/blob/83e8c37fabfee157509b5d3470dd1057ae6b04fb/assets/files/Predictive%20Modeling%20for%20Quality%20of%20Life%20Classification%20Using%20ACS%20Data.pdf)
 - [RStudio Code] (https://github.com/chaneyhsu/chaneyhsu.github.io/blob/82450e198b1d68bfe69da57dea84aea9ee14e559/assets/files/Predictive%20Modeling%20for%20Quality%20of%20Life%20Classification%20Using%20ACS%20Data.R)
 
 ##### Real Estate Cost Analysis
