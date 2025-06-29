@@ -11,13 +11,28 @@
 - Co-authored a preprint developing and presenting systematic methods and code for empirically estimating pre-post correlations in repeated measures designs, addressing common gaps in meta-analytic studies
 - [Extracting Pre-Post Correlations for Meta-Analyses of Repeated Measures Designs] ([10.17605/OSF.IO/HZJ4D](https://osf.io/hzj4d/))
 
-##### Predictive Modeling for Disability Classification Using ACS Data
+##### Predictive Modeling for Quality of Life Classification Using ACS Data
 - Developed and compared 36 classification models to predict independent living difficulty from U.S. Census data
 - Applied LASSO, Random Forest, and Recursive Feature Elimination in RStudio for dimensionality reduction and feature selection
 - Balanced dataset using oversampling and class weights to boost minority class detection
 - Achieved 84.2% true positive rate in final model; assessed performance via ROC-AUC, F1, and MCC
-- [] ()
+- [Paper] ()
+- [Code] ()
 
 ##### Real Estate Cost Analysis
+- Preprocessed and cleaned real estate data, building a regression model with Python and Pandas, engineering key features (price per sqft, property age, convenience), and applying data normalization techniques (Z-score scaling) to enhance model accuracy in predicting cost trends, leading to improved accuracy and more reliable predictions
+- Evaluated model performance using R-squared and Mean Squared Error, optimizing hyperparameters to improve accuracy and provide insights that enhanced business decisions and cost optimization
+- [Real Estate Cost Analysis] ()
 
 ##### Evaluation of Predictive Algorithms
+- Explored and evaluated Artificial Neural Networks in a team of 3, focusing on Recurrent Neural Networks (RNNs), Long Short-Term Memory (LSTM) Networks, and Gated Recurrent Units (GRUs), developing and training models in Python to assess performance across various tasks
+- Implemented RNNs, LSTMs, and GRUs, identifying that LSTMs excel in time-series analysis, while GRUs and RNNs outperform simpler tasks, improving model efficiency
+- [Evaluation of Predictive Algorithms] ()
+
+##### Statistical Methods For Air Permeability in Textiles Research
+- Validated and recreated the analysis of textile data using multiple linear regression to predict air permeability based on weft/warp yarn densities and fabric mass per unit area; achieved R² = 0.84 in baseline model
+- Evaluated model assumptions using ANOVA, t-tests, and variance inflation factor (VIF) to identify and address multicollinearity
+- Enhanced original study by conducting tertiary regression models excluding individual predictors, and compared their statistical performance
+- Validated significant predictors and model fit through hypothesis testing (α = 0.05) and visualized model diagnostics using R
+- Concluded weft and warp densities were the most significant predictors; recommended reduced models for improved interpretability without sacrificing predictive power
+- [Paper with RMarkdown Code] ()
