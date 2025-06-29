@@ -22,7 +22,8 @@
 ##### Real Estate Cost Analysis
 - Preprocessed and cleaned real estate data, building a regression model with Python and Pandas, engineering key features (price per sqft, property age, convenience), and applying data normalization techniques (Z-score scaling) to enhance model accuracy in predicting cost trends, leading to improved accuracy and more reliable predictions
 - Evaluated model performance using R-squared and Mean Squared Error, optimizing hyperparameters to improve accuracy and provide insights that enhanced business decisions and cost optimization
-- [Real Estate Cost Analysis] ()
+- [Presentation] ()
+- [RMarkdown Code] ()
 
 ##### Evaluation of Predictive Algorithms
 - Explored and evaluated Artificial Neural Networks in a team of 3, focusing on Recurrent Neural Networks (RNNs), Long Short-Term Memory (LSTM) Networks, and Gated Recurrent Units (GRUs), developing and training models in Python to assess performance across various tasks
