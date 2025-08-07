@@ -46,9 +46,12 @@
 - Engineered features such as lag variables, moving averages, and rolling statistics to enhance predictive performance
 - Evaluated model performance using backtesting and RMSE, achieving low forecast error across multiple test windows
 - Compared forecasting approaches (ARIMA, naive seasonal baseline) and visualized results to highlight model improvements
+- [Presentation]()
 
 ### College Basketball Strategy App using KenPom Data
 - Designed and deployed a multi-functional scouting app in Streamlit that analyzes NCAA Division I basketball teams using KenPom advanced stats
 - Enabled team comparisons based on Adjusted Tempo, Adjusted Offensive Efficiency (ORtg), and Adjusted Defensive Efficiency (DRtg) to support lineup strategy decisions
 - Built a “Game Risk & Volatility Estimator” that quantifies upset risk using differences in Net Rating, Strength of Schedule, and Luck, generating narrative summaries and confidence scores
 - Integrated fuzzy string matching and auto-suggestions to handle user input errors and improve usability for coaches
+- [Streamlit Web App](https://basketball-strategy-tool.streamlit.app/)
+- [Presentation]()
