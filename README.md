@@ -54,4 +54,4 @@
 - Built a “Game Risk & Volatility Estimator” that quantifies upset risk using differences in Net Rating, Strength of Schedule, and Luck, generating narrative summaries and confidence scores
 - Integrated fuzzy string matching and auto-suggestions to handle user input errors and improve usability for coaches
 - [Streamlit Web App](https://basketball-strategy-tool.streamlit.app/)
-- [Presentation]()
+- [Presentation](https://github.com/chaneyhsu/chaneyhsu.github.io/blob/67f860904e1c4cb75d4795cfe95a590aac11e9d1/assets/files/basketball-analytics-presentation.pdf)
