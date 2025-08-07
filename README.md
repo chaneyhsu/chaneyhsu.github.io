@@ -46,7 +46,7 @@
 - Engineered features such as lag variables, moving averages, and rolling statistics to enhance predictive performance
 - Evaluated model performance using backtesting and RMSE, achieving low forecast error across multiple test windows
 - Compared forecasting approaches (ARIMA, naive seasonal baseline) and visualized results to highlight model improvements
-- [Presentation]()
+- [Presentation](https://github.com/chaneyhsu/chaneyhsu.github.io/blob/67f860904e1c4cb75d4795cfe95a590aac11e9d1/assets/files/time-series-presentation.pdf)
 
 ### College Basketball Strategy App using KenPom Data
 - Designed and deployed a multi-functional scouting app in Streamlit that analyzes NCAA Division I basketball teams using KenPom advanced stats
