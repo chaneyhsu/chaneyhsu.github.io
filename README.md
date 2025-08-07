@@ -39,3 +39,11 @@
 - Validated significant predictors and model fit through hypothesis testing (α = 0.05) and visualized model diagnostics using R
 - Concluded weft and warp densities were the most significant predictors; recommended reduced models for improved interpretability without sacrificing predictive power
 - [Paper with RMarkdown Code](https://github.com/chaneyhsu/chaneyhsu.github.io/blob/82450e198b1d68bfe69da57dea84aea9ee14e559/assets/files/Statistical%20Methods%20For%20Air%20Permeability%20in%20Textiles%20Research.pdf)
+
+### Time Series Analytics for Stock Market Forecasting
+- Built a forecasting model for Microsoft (MSFT) stock using Python and time series methods including STL decomposition, ARIMA, and exponential smoothing to analyze trends and seasonality
+- Forecasted MSFT stock trends using ARIMA and exponential smoothing, reducing prediction error by 20% vs. baseline
+- Engineered features such as lag variables, moving averages, and rolling statistics to enhance predictive performance
+- Evaluated model performance using backtesting and RMSE, achieving low forecast error across multiple test windows
+- Compared forecasting approaches (ARIMA, naive seasonal baseline) and visualized results to highlight model improvements
+
