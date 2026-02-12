@@ -9,6 +9,24 @@
 - B.A., Economics, Digital Marketing & Analytics @ University of Connecticut (_May 2024_)
 
 ## Projects
+
+### Data Warehousing & ETL Process for 311 Service Analytics
+- Architected and implemented an end-to-end ETL pipeline in Python (Pandas) and SQL to ingest, cleanse, and transform large-scale municipal 311 service request datasets into structured warehouse tables with well-defined grains
+- Designed a constellation schema in PostgreSQL with multiple fact tables (Service_Requests_Fact, Service_Performance_Fact) and conformed dimensions (Date_DIM, Location_DIM, Service_DIM, Department_DIM) to enable scalable cross-domain reporting
+- Built an automated pipeline workflow to extract raw data, execute transformation scripts, validate outputs, and load dimensional models with minimal manual intervention
+- Implemented Slowly Changing Dimensions (SCD Type 2 and Type 3) to preserve historical attribute changes while maintaining temporal integrity
+- Developed data quality validation checks including null audits, duplicate detection, referential integrity enforcement, and SLA/on-time performance flag logic
+- Structured the warehouse using a layered architecture (raw → staging → cleaned → dimensional) to ensure modularity, reproducibility, and maintainability
+- Optimized query performance through indexing strategies, incremental loading, and normalization techniques
+
+### Schema Design & Storage Model Analysis for Analytical Workloads
+- Designed and implemented three alternative storage architectures—normalized schema (3NF), star schema, and semi-structured JSON model—across PostgreSQL and Snowflake to evaluate trade-offs in analytical workloads
+- Conducted controlled benchmarking experiments to compare query execution time, storage footprint, join complexity, and aggregation efficiency across schema designs
+- Analyzed how schema normalization levels impact join depth, query readability, and optimizer behavior under large-scale analytical queries
+- Evaluated performance implications of columnar storage (Snowflake) versus row-based storage (PostgreSQL), including differences in compression, scan efficiency, and predicate pushdown
+- Quantified trade-offs between schema flexibility and analytical performance when using semi-structured JSON models versus structured dimensional designs
+- Documented schema-driven impacts on query planning, execution paths, and maintainability for enterprise-scale reporting systems
+
 ### Statistical Methods for Meta-Analysis of Mindfulness-Based Stress Reduction Studies
 - Co-authored a preprint developing and presenting systematic methods and code for empirically estimating pre-post correlations in repeated measures designs, addressing common gaps in meta-analytic studies
 - [Extracting Pre-Post Correlations for Meta-Analyses of Repeated Measures Designs](https://osf.io/hzj4d/)
@@ -55,3 +73,12 @@
 - Integrated fuzzy string matching and auto-suggestions to handle user input errors and improve usability for coaches
 - [Streamlit Web App](https://basketball-strategy-tool.streamlit.app/)
 - [Presentation](https://github.com/chaneyhsu/chaneyhsu.github.io/blob/67f860904e1c4cb75d4795cfe95a590aac11e9d1/assets/files/basketball-analytics-presentation.pdf)
+
+### College Basketball Lineup Strategy Analytics
+- Developed an interactive lineup optimization dashboard in Streamlit to simulate team offensive efficiency based on projected rotation minutes
+- Modeled weighted lineup impact using player-level advanced metrics (Net Rating, ORtg, Usage, eFG%) to estimate aggregate team performance
+- Built scenario-based simulations allowing adjustment of tempo, shot profile, and usage distribution to evaluate strategic fit
+- Implemented dynamic On/Off impact calculations to quantify marginal efficiency gains from lineup substitutions
+- Designed player radar visualizations to profile role archetypes and support coaching decision-making
+- Applied data validation, minute-weight normalization, and sensitivity testing to ensure projection stability
+- [Streamlit Web App - Lineup Strategy Analytics](https://lineup-strategy-analytics.streamlit.app/)
