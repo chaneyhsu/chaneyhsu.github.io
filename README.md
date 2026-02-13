@@ -29,7 +29,10 @@
 - Evaluated performance implications of columnar storage (Snowflake) versus row-based storage (PostgreSQL), including differences in compression, scan efficiency, and predicate pushdown
 - Quantified trade-offs between schema flexibility and analytical performance when using semi-structured JSON models versus structured dimensional designs
 - Documented schema-driven impacts on query planning, execution paths, and maintainability for enterprise-scale reporting systems
-- 
+- [Snowflake Code](https://github.com/chaneyhsu/chaneyhsu.github.io/blob/381c8a72ffe66ce708467923bf0bba3d04b9624c/assets/files/Snowflake_311.sql)
+- [SQL Code](https://github.com/chaneyhsu/chaneyhsu.github.io/blob/381c8a72ffe66ce708467923bf0bba3d04b9624c/assets/files/Snowflake_311_Project.sql)
+- [BCNF Testing](https://github.com/chaneyhsu/chaneyhsu.github.io/blob/381c8a72ffe66ce708467923bf0bba3d04b9624c/assets/files/Snowflake_Prof_BCNF.pdf )
+- [Star Schema and ERD](https://github.com/chaneyhsu/chaneyhsu.github.io/blob/381c8a72ffe66ce708467923bf0bba3d04b9624c/assets/files/Snowflake_Proj_Star_Schema_ERD.pdf )
 
 ### Statistical Methods for Meta-Analysis of Mindfulness-Based Stress Reduction Studies
 - Co-authored a preprint developing and presenting systematic methods and code for empirically estimating pre-post correlations in repeated measures designs, addressing common gaps in meta-analytic studies
