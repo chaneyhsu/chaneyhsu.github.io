@@ -18,6 +18,9 @@
 - Developed data quality validation checks including null audits, duplicate detection, referential integrity enforcement, and SLA/on-time performance flag logic
 - Structured the warehouse using a layered architecture (raw → staging → cleaned → dimensional) to ensure modularity, reproducibility, and maintainability
 - Optimized query performance through indexing strategies, incremental loading, and normalization techniques
+- [Constellation Schema](https://github.com/chaneyhsu/chaneyhsu.github.io/blob/aad04a190c5f8747ea54d860974014ec49a1a781/assets/files/311_Proj_Constellation_Schema.pdf)
+- [SQL Code](https://github.com/chaneyhsu/chaneyhsu.github.io/blob/aad04a190c5f8747ea54d860974014ec49a1a781/assets/files/311_Project.sql)
+- [ETL Process](https://github.com/chaneyhsu/chaneyhsu.github.io/blob/aad04a190c5f8747ea54d860974014ec49a1a781/assets/files/311_Project_ETL_Process.ipynb )
 
 ### Schema Design & Storage Model Analysis for Analytical Workloads
 - Designed and implemented three alternative storage architectures—normalized schema (3NF), star schema, and semi-structured JSON model—across PostgreSQL and Snowflake to evaluate trade-offs in analytical workloads
@@ -26,6 +29,7 @@
 - Evaluated performance implications of columnar storage (Snowflake) versus row-based storage (PostgreSQL), including differences in compression, scan efficiency, and predicate pushdown
 - Quantified trade-offs between schema flexibility and analytical performance when using semi-structured JSON models versus structured dimensional designs
 - Documented schema-driven impacts on query planning, execution paths, and maintainability for enterprise-scale reporting systems
+- 
 
 ### Statistical Methods for Meta-Analysis of Mindfulness-Based Stress Reduction Studies
 - Co-authored a preprint developing and presenting systematic methods and code for empirically estimating pre-post correlations in repeated measures designs, addressing common gaps in meta-analytic studies
